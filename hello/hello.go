@@ -1,11 +1,7 @@
 package hello
 
-import "rsc.io/quote/v3"
 
 func Hello() string {
-    return quote.HelloV3()
+    return "Hello World,v0.1.2"
 }
 
-func Proverb() string {
-    return quote.Concurrency()
-}
